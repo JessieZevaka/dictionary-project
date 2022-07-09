@@ -13,6 +13,15 @@
 
 }
 
+.Dictionary .title {
+    margin-top: 30px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
 .Dictionary input {
     width: 100%; 
     border-radius: 6px;

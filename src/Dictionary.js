@@ -48,6 +48,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
+        <h2 className="title">📖 Dictionary</h2>
         <section>
           <h1>What word are you looking for today?</h1>
           <form onSubmit={handleSubmit}>
@@ -58,7 +59,7 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="hint">
-            suggested words: sunset, wine, yoga, plant...
+            Suggested words: sunset, wine, yoga, plant...
           </div>
         </section>
         <Results results={results} />

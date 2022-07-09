@@ -8,6 +8,16 @@ function App() {
         <main>
           <Dictionary defaultKeyword="curious" />
         </main>
+        <footer>
+          This project was coded by Jess Zevaka and is{" "}
+          <a
+            href="https://github.com/JessieZevaka/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );

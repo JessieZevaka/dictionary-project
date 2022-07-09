@@ -6,8 +6,17 @@ a {
   color: #7257f7;
 }
 
+a:hover {
+  color: #aa9bf9;
+}
+
 .App {
 max-width: 960px; 
 margin: 0 auto; 
 
+}
+
+.App footer {
+  font-size: 11px;
+  text-align: center;
 }
