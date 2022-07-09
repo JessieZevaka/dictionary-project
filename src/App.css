@@ -1,6 +1,8 @@
 body {
-  background: #f9f8fe;
-}
+
+  background: rgb(181, 174, 238);
+    background: radial-gradient(circle, rgba(181, 174, 238, 0.5844931722689075) 0%, rgba(148, 233, 161, 1) 100%);
+  }
 
 a {
   color: #7257f7;
@@ -19,4 +21,5 @@ margin: 0 auto;
 .App footer {
   font-size: 11px;
   text-align: center;
+  margin-bottom: 30px;
 }
